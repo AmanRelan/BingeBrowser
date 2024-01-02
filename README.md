@@ -6,6 +6,8 @@ Steps Covered to Build the APP:
 - React Router DOM(For Routing)
 - Header
 - Sign In/Login Form
+- Sign UP Form(toggle with Sign IN)
+- Form Validations
 
 Features Created in the APP
 - Home Screen
@@ -21,3 +23,7 @@ Features Created in the APP
         - Movies List * N(Vertically Scrollable)
 - Movie Suggestions
 - Search Bar
+
+
+#### Recommendations
+- Use Formik(For Forms & Validations)
