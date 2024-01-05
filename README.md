@@ -9,6 +9,9 @@ Steps Covered to Build the APP:
 - Sign UP Form(toggle with Sign IN)
 - Form Validations
 - useRef hook
+- Firebase Setup
+- Firebase Deploy to production
+- Authentication(Sign up user account in Firebase)
 
 Features Created in the APP
 - Home Screen

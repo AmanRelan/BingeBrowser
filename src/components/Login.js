@@ -12,11 +12,9 @@ const Login = () => {
     setIsSignInForm(!isSignInForm)
   }
   const handleButtonClick = () => {
-    //Validate the form data
     const message = validateData(email.current.value, password.current.value)
     setErrorMessage(message)
-
-    // Sign In/ Sign up
+    if (message) return
   }
 
   return (
