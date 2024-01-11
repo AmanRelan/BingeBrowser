@@ -1,6 +1,7 @@
-# Binge Browser 
+# Binge Browser
 
 Steps Covered to Build the APP:
+
 - Create React APP
 - Tailwind CSS Configuration
 - React Router DOM(For Routing)
@@ -12,8 +13,12 @@ Steps Covered to Build the APP:
 - Firebase Setup
 - Firebase Deploy to production
 - Authentication(Sign up user account in Firebase)
+- Create first user
+- User Logged IN
+- User Signed up
 
 Features Created in the APP
+
 - Home Screen
   - Login Screen
   - Sign up Screen
@@ -21,13 +26,13 @@ Features Created in the APP
 - Browse(For Logged in Users/After logging in)
   1. Header
   2. Main Movie
-    - Trailer in BG
-    - Movie Title and Description
-    - Movie Suggestions
-        - Movies List * N(Vertically Scrollable)
+  - Trailer in BG
+  - Movie Title and Description
+  - Movie Suggestions
+    - Movies List \* N(Vertically Scrollable)
 - Movie Suggestions
 - Search Bar
 
-
 #### Recommendations
+
 - Use Formik(For Forms & Validations)
