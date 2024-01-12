@@ -16,6 +16,8 @@ Steps Covered to Build the APP:
 - Create first user
 - User Logged IN
 - User Signed up
+- Redux store
+- User Signed out
 
 Features Created in the APP
 
