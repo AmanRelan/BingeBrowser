@@ -3,13 +3,13 @@ import { getAnalytics } from 'firebase/analytics'
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBkuMUSiJ9ddkEqLH30EPO6DvZ9gpNMHB0",
-  authDomain: "bingebrowser-17909.firebaseapp.com",
-  projectId: "bingebrowser-17909",
-  storageBucket: "bingebrowser-17909.appspot.com",
-  messagingSenderId: "415318289625",
-  appId: "1:415318289625:web:431b27f27f28a51ca7a2c8",
-  measurementId: "G-Q7NFNBJ4XN"
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.FIREBASE_APP_ID,
+  measurementId: process.env.FIREBASE_APP_MEASUREMENT_ID,
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
