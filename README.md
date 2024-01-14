@@ -18,6 +18,7 @@ Steps Covered to Build the APP:
 - User Signed up
 - Redux store
 - User Signed out
+- Redirect user based on the fact if user is currently logged in or not?
 
 Features Created in the APP
 
