@@ -19,6 +19,8 @@ Steps Covered to Build the APP:
 - Redux store
 - User Signed out
 - Redirect user based on the fact if user is currently logged in or not?
+- Unsubscribe to the onAuthStateChanged callback
+- Adding constants file and moving constants from each component to that file
 
 Features Created in the APP
 
